@@ -10,7 +10,7 @@ const login = async( req, res = response ) => {
 
     console.log(req.body);
 
-    let { email:email, password } = req.body;
+    let { email, password } = req.body;
     let idToken = '';
     let usuario = {};
 
